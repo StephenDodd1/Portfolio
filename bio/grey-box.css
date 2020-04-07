@@ -59,7 +59,7 @@ h3{
 #bio-content {
     display: flex;
     flex-direction: column;
-    background-color: gray;
+    background-color: lightgray;
 }
  
 #bio-content {
