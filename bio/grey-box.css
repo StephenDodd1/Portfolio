@@ -13,6 +13,7 @@ nav {
     display: flex;
     flex-direction: row;
 }
+
 nav > a {
     background-color: black;
     margin: 4px;
