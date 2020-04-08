@@ -47,6 +47,8 @@ li {
 ul :nth-child(1) {
     font-size: 22px;
     margin-left: -10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
 }
 
 #git-id {
