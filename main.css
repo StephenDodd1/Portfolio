@@ -71,18 +71,18 @@ main {
 }
 
 #my-face {
-    transform: scale(.05,.05) rotate(85deg);
+    transform: scale(.6,.6) rotate(355deg);
     max-width: 200px;
     max-height: 200px;
-    margin-left: 40px;
-    margin-top: -40px;
+    margin-left: -60px;
+    margin-top: 20px;
     position: fixed;
     z-index: 2;
 }
 
 #logo {
     transform: scale(.7,.7) rotate(15deg);
-    margin-top: 27px;
+    margin-top: 0px;
     margin-left: 119px;
     position: fixed;
     z-index: 1;
@@ -127,11 +127,11 @@ main {
     }
 
     #my-face {
-        transform: scale(.1,.1) rotate(85deg);
+        transform: rotate(355deg);
         max-width: 300px;
         max-height: 300px;
-        margin-left: 170px;
-        margin-top: -100px;
+        margin-left: 20px;
+        margin-top: 40px;
     }
     
     #logo {
