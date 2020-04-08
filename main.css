@@ -32,6 +32,9 @@ h2 {
 div > a {
     background: black; 
     font: white;
+    padding-left:8px;
+    padding-right: 8px;
+    padding-top: 3px;
 }
 
 nav {
@@ -139,6 +142,24 @@ main {
         margin-top: 50px;
         margin-left: 410px;
         position: flex;
+    }
+}
+
+
+@media screen and (max-height: 650px) {
+    #my-face {
+        transform: scale(.8,.8) rotate(355deg);
+        margin-top: 0px;
+    }
+}
+@media screen and (max-height: 570px) {
+    #my-face {
+        transform: scale(.6,.6) rotate(355deg);
+        margin-top: -40px;
+    }
+    #logo {
+        transform: scale(.85,.85) rotate(15deg);
+        margin-top: -19px;
     }
 }
 
