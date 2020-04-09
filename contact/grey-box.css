@@ -11,7 +11,7 @@ nav {
     display: flex;
     flex-direction: row;
     margin: auto;
-    margin-left: -30px;
+    margin-left: -10px;
 }
 
 nav > a {
