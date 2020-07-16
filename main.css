@@ -1,14 +1,18 @@
 * {
     box-sizing: border-box;
-    background-color: rgb(220, 223, 219);
+    background-color: whitesmoke;
 }
 
 body {
     width: 300px;
     margin: auto;
+    overflow: auto;
+    height: 600px;
+    margin-top: 30px;
+
 }
 header {
-    background: white;
+    background: #ffb74d;
     border: 2px solid black;
     margin-bottom: 3px;
     border-radius: 8px;
@@ -16,8 +20,9 @@ header {
 
 h1 {
     font-family: 'Courier New', Courier, monospace;
-    background: white;
+    background: #ffb74d;
     font-size: 25px;
+    margin-left: 10px;
 }
 
 h2 {
@@ -25,7 +30,7 @@ h2 {
     font-style: italic;
     font-size: 20px;
     font-weight: lighter;
-    background: white;
+    background: #ffb74d;
     text-align: center;
 }
 
@@ -47,7 +52,7 @@ nav {
     flex-direction: row;
     width: 296px;
     justify-content: space-between;
-    background: white;
+    background: #ffb74d;
 }
 
 #bottom-side {
@@ -55,7 +60,7 @@ nav {
     flex-direction: row;
     width: 296px;
     justify-content: space-between;
-    background: white;
+    background: #ffb74d;
 }
 
 a {
@@ -73,6 +78,10 @@ main {
     
 }
 
+img {
+    border-radius: 10%;
+}
+
 #my-face {
     transform: scale(.6,.6) rotate(355deg);
     max-width: 200px;
@@ -82,13 +91,17 @@ main {
     position: fixed;
     z-index: 2;
 }
-
+input {
+    border-radius: 46%;
+    background: black
+}
 #logo {
     transform: scale(.7,.7) rotate(15deg);
     margin-top: 0px;
     margin-left: 119px;
     position: fixed;
     z-index: 1;
+    background: none;
 }
 
 @media screen and (min-width: 700px) {
@@ -98,7 +111,8 @@ main {
 
     h1 {
         text-align: right;
-        font-size: 32px;
+        font-size: 36px;
+        margin-right: 170px;
     }
 
     header {
@@ -110,7 +124,7 @@ main {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        background: white;
+        background: #ffb74d;
     }
 
     #top-side {
@@ -129,7 +143,12 @@ main {
         margin: auto;
     }
 
+    img {
+        border-radius: 10%;
+    }
+
     #my-face {
+        border-radius: 10%;
         transform: rotate(355deg);
         max-width: 300px;
         max-height: 300px;
@@ -147,27 +166,30 @@ main {
 
 
 @media screen and (max-height: 650px) {
+  
+
     #my-face {
-        transform: scale(.8,.8) rotate(355deg);
+        transform: scale(.6,.6) rotate(355deg);
         margin-top: 0px;
     }
 }
+/*next-tallest*/
 @media screen and (max-height: 570px) {
     #my-face {
         transform: scale(.6,.6) rotate(355deg);
-        margin-top: -40px;
+        margin-top: -20px;
     }
     #logo {
-        transform: scale(.85,.85) rotate(15deg);
-        margin-top: -19px;
+        transform: scale(.75,.75) rotate(15deg);
+        margin-top: -14px;
     }
 }
-
+/*next-shortest*/
 @media screen and (max-height: 477px) {
     #my-face {
         transform: scale(.5,.5) rotate(355deg);
-        margin-top: -80px;
-        margin-left: 80px;
+        margin-top: -30px;
+        margin-left: 30px;
     }
     #logo {
         transform: scale(.75,.75) rotate(15deg);
@@ -175,8 +197,11 @@ main {
         margin-left: 390px;
     }
 }
-
+/*shortest*/
 @media screen and (max-height: 412px) {
+    body {
+        margin-top: 10px;
+    }
     #my-face {
         display: none;
     }
