@@ -11,19 +11,29 @@ nav > a {
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif
 }
-
+.split {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.bold {
+    font-weight: bold;
+}
+.flex-end {
+    align-self: flex-end;
+}
 header {
     font-family: 'Courier New', Courier, monospace;
     display: flex;
     flex-direction: column;
     padding-left: 40px;
     padding-top: 20px;
-    
 }
 
 h1 {
     margin-left: 8px;
     font-size: 30px;
+    color: gray;
 }
 
 main {
@@ -34,9 +44,10 @@ main {
 }
 
 .section-break {
-    height: 4px;
-    background-color: black;
-    padding: 0px;
+    background-color: darkorange;
+    font: bold 20px Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 2px 0 0 6px;
 }
 
 .line-break {
@@ -46,13 +57,17 @@ main {
 }
  
 h2 {
-    background-color: darkgray;
+    background-color: white;
+    color: darkorange;
+    font-family: Arial, Helvetica, sans-serif;
     height: 50px;
 }
 
-p {
-    background-color: lightgray;
-    height: 100px;
+#header-container {
+    color: black;
+}
+#bottom-right-header > p > a {
+    color: black
 }
 
 @media screen and (min-width: 700px) {
