@@ -12,7 +12,7 @@ body {
 
 }
 header {
-    background: #ffb74d;
+    background: lightgray;
     border: 2px solid black;
     margin-bottom: 3px;
     border-radius: 8px;
@@ -20,7 +20,7 @@ header {
 
 h1 {
     font-family: 'Courier New', Courier, monospace;
-    background: #ffb74d;
+    background: lightgray;
     font-size: 25px;
     margin-left: 10px;
 }
@@ -30,7 +30,7 @@ h2 {
     font-style: italic;
     font-size: 20px;
     font-weight: lighter;
-    background: #ffb74d;
+    background: lightgray;
     text-align: center;
 }
 
@@ -52,7 +52,7 @@ nav {
     flex-direction: row;
     width: 296px;
     justify-content: space-between;
-    background: #ffb74d;
+    background: lightseagreen;
 }
 
 #bottom-side {
@@ -60,7 +60,7 @@ nav {
     flex-direction: row;
     width: 296px;
     justify-content: space-between;
-    background: #ffb74d;
+    background: lightskyblue;
 }
 
 a {
@@ -124,7 +124,7 @@ input {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        background: #ffb74d;
+        background: lightblue;
     }
 
     #top-side {
