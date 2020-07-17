@@ -42,6 +42,14 @@ div > a {
     padding-top: 3px;
 }
 
+#logo > a {
+    background: none; 
+    font: none;
+    padding-left:8px;
+    padding-right: 8px;
+    padding-top: 3px;
+}
+
 nav {
     display: flex;
     flex-direction: column;
