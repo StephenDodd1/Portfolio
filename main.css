@@ -99,10 +99,12 @@ img {
     position: fixed;
     z-index: 2;
 }
+
 input {
     border-radius: 46%;
     background: black
 }
+
 #logo {
     transform: scale(.7,.7) rotate(15deg);
     margin-top: 0px;
